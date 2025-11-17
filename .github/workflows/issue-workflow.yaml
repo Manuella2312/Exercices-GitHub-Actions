@@ -12,3 +12,4 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_ACTION: ${{ github.event.action }}
         run: echo "The action '${EVENT_ACTION}' was performed against '${EVENT_NAME}'."
+# Test run
